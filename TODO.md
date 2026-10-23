@@ -1,0 +1,23 @@
+# Livrables Dulcinée — Horror Birthday
+
+- [x] Créer une page d’accueil personnalisée pour l’anniversaire de Dulcinée avec révélation cinématique et ambiance immersive.
+- [x] Appliquer une direction artistique horror élégante en rouge profond et noir, avec couteaux décoratifs et faux sang stylisé non graphique.
+- [x] Livrer quatre portraits horror verticaux dérivés des photos fournies, en préservant clairement l’identité de Dulcinée.
+- [x] Maintenir un traitement visuel cohérent et sûr, sans blessure, mutilation ni gore explicite.
+- [x] Harmoniser les quatre portraits avec des effets subtils et cinématiques adaptés au web.
+- [x] Fournir une galerie immersive permettant de découvrir individuellement les quatre portraits.
+- [x] Ajouter profondeur, transitions, parallaxe et interactions donnant au site une sensation 3D moderne.
+- [x] Garder les animations fluides et lisibles sur desktop, tablette et mobile.
+- [x] Organiser le code, les portraits et les assets par dossiers dans une archive ZIP finale.
+- [x] Ajouter un parcours en six chapitres avec menu compact et progression de scroll.
+- [x] Remplacer la scène abstraite par un cimetière 3D procédural avec tombes, arbres, lune, brume et caméra pilotée au défilement.
+- [x] Ajouter six décors cinématiques et davantage de moments émotionnels et joyeux autour de l’amitié.
+- [x] Intégrer de vrais modèles GLB dédiés pour le portail d’entrée et le mausolée.
+- [x] Placer les quatre portraits comme panneaux-souvenirs 3D dans différentes zones du cimetière.
+- [x] Rendre les panneaux-souvenirs cliquables avec un fragment narratif contextualisé.
+- [x] Ajouter une statue GLB de gardienne dans la zone centrale du jardin.
+- [x] Ajouter un bouton « Entrer dans le jardin » qui verrouille la page sur la scène et permet l’exploration à la molette ou aux flèches.
+- [x] Ajouter un bouton de plein écran avec sortie native par Échap.
+- [x] En plein écran, masquer les textes et réduire la sortie à un bouton rond flottant.
+- [x] Renforcer les tombes avec socles, stèles, croix et lanternes lumineuses à plusieurs profondeurs.
+- [x] Vérifier l’adaptation mobile de la scène et des contrôles.

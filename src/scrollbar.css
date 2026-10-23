@@ -1,0 +1,23 @@
+:root {
+  scrollbar-color: var(--red) var(--ink2);
+  scrollbar-width: auto;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--ink2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--red);
+  border: 3px solid var(--ink2);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--hot);
+}
