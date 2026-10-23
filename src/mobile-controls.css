@@ -17,6 +17,18 @@
     pointer-events: none;
   }
 
+  .orbit-section.is-fullscreen .scene-story.is-open,
+  .orbit-section:fullscreen .scene-story.is-open {
+    position: absolute;
+    z-index: 9;
+    right: 16px;
+    bottom: calc(max(20px, env(safe-area-inset-bottom)) + 126px);
+    display: block !important;
+    width: min(330px, calc(100% - 32px));
+    max-height: min(36vh, 280px);
+    overflow-y: auto;
+  }
+
   .scene-mobile-controls button {
     display: flex;
     min-width: 0;
