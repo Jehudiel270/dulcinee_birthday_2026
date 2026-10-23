@@ -1,0 +1,73 @@
+.scene-mobile-controls {
+  display: none;
+}
+
+@media (max-width: 620px), (pointer: coarse) and (max-width: 900px) {
+  .orbit-section.is-exploring .scene-mobile-controls {
+    position: absolute;
+    z-index: 8;
+    right: 0;
+    bottom: max(20px, env(safe-area-inset-bottom));
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 58px);
+    grid-template-rows: repeat(2, 54px);
+    justify-content: center;
+    gap: 7px;
+    pointer-events: none;
+  }
+
+  .scene-mobile-controls button {
+    display: flex;
+    min-width: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid rgba(242, 223, 212, .45);
+    border-radius: 8px;
+    background: rgba(9, 3, 7, .78);
+    color: var(--paper);
+    cursor: pointer;
+    pointer-events: auto;
+    touch-action: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
+  .scene-mobile-controls button:active {
+    border-color: var(--hot);
+    background: rgba(183, 25, 49, .68);
+  }
+
+  .scene-mobile-controls button:focus-visible {
+    outline: 2px solid var(--hot);
+    outline-offset: 2px;
+  }
+
+  .scene-mobile-controls button span {
+    font: 22px/1 var(--sans);
+  }
+
+  .scene-mobile-controls button small {
+    color: var(--muted);
+    font: 7px/1 var(--mono);
+    letter-spacing: .04em;
+  }
+
+  .scene-mobile-controls [data-control="forward"] {
+    grid-area: 1 / 2;
+  }
+
+  .scene-mobile-controls [data-control="left"] {
+    grid-area: 2 / 1;
+  }
+
+  .scene-mobile-controls [data-control="backward"] {
+    grid-area: 2 / 2;
+  }
+
+  .scene-mobile-controls [data-control="right"] {
+    grid-area: 2 / 3;
+  }
+}
